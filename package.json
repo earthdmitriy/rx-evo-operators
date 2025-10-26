@@ -14,7 +14,7 @@
   },
   "author": "earthdmitriy",
   "license": "ISC",
-  "description": "",
+  "description": "Additional operators for RxJS library",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "jest",
@@ -30,12 +30,12 @@
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^8.29.1",
     "@typescript-eslint/parser": "^8.29.1",
-    "jest": "^29.7.0",
-    "jest-preset-angular": "^13.1.6",
-    "prettier": "^3.3.3"
+    "ts-jest": "^29.4.5",
+    "prettier": "^3.3.3",
+    "typescript": "^5.3.3"
   },
   "jest": {
-    "preset": "jest-preset-angular",
+    "preset": "ts-jest",
     "setupFilesAfterEnv": [
       "<rootDir>/setupJest.ts"
     ]
